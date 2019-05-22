@@ -1,0 +1,295 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container.\31 25\25 {
+    width: 100%;
+    max-width: 100em;
+    min-width: 80em;
+}
+
+.container.\37 5\25 {
+    width: 60em;
+}
+
+.container.\35 0\25 {
+    width: 40em;
+}
+
+.container.\32 5\25 {
+    width: 20em;
+}
+
+.container {
+    width: 80em;
+}
+
+body {
+    background: #d4e0ef;
+}
+
+body,
+input,
+select,
+textarea {
+    color: #9a9a9a;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+a {
+    color: #5385c1;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+strong,
+b {
+    color: #555;
+    font-weight: 600;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+h1 {
+    font-size: 80px;
+    color: cadetblue;
+    font-family: 微軟正黑體;
+    font-weight: 500;
+}
+
+#coco {
+    font-size: 80px;
+    color: cadetblue;
+    font-family: 微軟正黑體;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #5385c1;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+
+sub {
+    font-size: 0.8em;
+    position: relative;
+    top: 0.5em;
+}
+
+sup {
+    font-size: 0.8em;
+    position: relative;
+    top: -0.5em;
+}
+
+blockquote {
+    border-left: solid 4px #dbdbdb;
+    font-style: italic;
+    margin: 0 0 2em 0;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+hr {
+    border: 0;
+    border-bottom: solid 1px #dbdbdb;
+    margin: 2em 0;
+}
+
+hr.major {
+    margin: 3em 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.inner {
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+#pco {
+    font-size: 40px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+#what {
+    font-size: 84px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.flex {
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    display: flex;
+}
+
+.flex.flex-2 article {
+    width: 47%;
+}
+
+.flex.flex-3 article {
+    position: relative;
+    width: 28%;
+}
+
+.flex.flex-3 article:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -2em;
+    top: 0;
+    border-right: 1px solid #dbdbdb;
+    pointer-events: none;
+}
+
+.flex.flex-3 article:last-child:before {
+    border: none;
+}
+
+.flex.flex-4 .box {
+    width: 21%;
+}
+
+#cc {
+    width: 30cm;
+    height: 100cm;
+}
+
+
+/* Header */
+
+#header {
+    color: #d4e0ef;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: absolute;
+    text-align: right;
+    top: 4em;
+    width: 100%;
+    z-index: 10001;
+}
+
+#header .inner {
+    margin: 0 auto;
+    position: relative;
+}
+
+#banner {
+    padding: 12em 0 10em 0;
+    background-image: url('images/fox.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 0.5em solid #5385c1;
+}
